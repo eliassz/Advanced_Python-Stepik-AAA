@@ -20,9 +20,7 @@ class BasePokemon:
 
 
 class Pokemon(EmojiMixin, BasePokemon):
-
-    def __init__(self, name: str, poketype: str):
-        super().__init__(name, poketype)
+    pass
 
 
 if __name__ == '__main__':
