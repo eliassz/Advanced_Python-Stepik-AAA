@@ -14,7 +14,7 @@ class Color:
             return ((self.red == another_color.red) &
                     (self.green == another_color.green) &
                     (self.blue == another_color.blue))
-        raise NotImplemented
+        raise NotImplementedError
 
 
 if __name__ == "__main__":
